@@ -89,7 +89,7 @@ function signIn() {
             let passwordIn = userPasswordSignIn.value;
             if (emailInput == userInfoContainer[i].userMail && passwordIn == userInfoContainer[i].userPassword) {
                 localStorage.setItem('sessionUserName', userInfoContainer[i].userName)
-                window.location.replace("Welcome.html");
+                window.location.replace("bookmarks.html");
                 break;
             }
             else {
